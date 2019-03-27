@@ -1,14 +1,14 @@
 # sample
 
-pascal: {{text1:pascal}}
+pascal: {{ text1 : pascal }}
 
 camel: {{text1:camel}}
 
 constant: {{text1:constant}}
 
-dot: {{text1:dot}}
+dot: {{text1 : dot}}
 
-header: {{text1:header}}
+header: {{ text1: header }}
 
 isLower: {{text1:isLower}}
 
