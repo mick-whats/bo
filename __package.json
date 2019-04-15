@@ -12,7 +12,8 @@
     "build:watch": "chokidar \"**/*.js\" -c \"npm run build\""
   },
   "dependencies": {
-    "xza": "^2.7.0"
+    "xza": "^2.7.0",
+    "prettier": "^1.15.3"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
@@ -22,8 +23,7 @@
     "eslint-plugin-jsdoc": "^3.9.1",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.15.3"
+    "eslint-plugin-standard": "^4.0.0"
   },
   "private": true,
   "homepage": "https://github.com/{{owner}}/{{name}}",
