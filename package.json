@@ -7,9 +7,8 @@
   "description": "",
   "scripts": {
     "build": "hify build -d docs -f",
-    "build:dev": "BUILD_MODE=dev hify build -d docs -f",
-    "brousersync:dev": "browser-sync start --server 'docs' --files='docs' --port 3003 -w",
-    "build:watch": "chokidar \"**/*.js\" -c \"npm run build:dev\""
+    "brousersync:start": "browser-sync start --server 'docs' --files='docs' --port 3003 -w",
+    "build:watch": "chokidar \"**/*.js\" -c \"npm run build\""
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
