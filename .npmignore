@@ -4,3 +4,4 @@ appveyor.yml
 esdoc.json
 idea.md
 yarn.lock
+docs
