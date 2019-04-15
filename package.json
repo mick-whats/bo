@@ -1,0 +1,46 @@
+{
+  "name": "hify.doc",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "description": "",
+  "scripts": {
+    "build": "hify build -d docs -f",
+    "build:dev": "BUILD_MODE=dev hify build -d docs -f",
+    "brousersync:dev": "browser-sync start --server 'docs' --files='docs' --port 3003 -w",
+    "build:watch": "chokidar \"**/*.js\" -c \"npm run build:dev\""
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.0",
+    "eslint-plugin-jsdoc": "^3.9.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "hify": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/mick-whats/hify.doc",
+  "bugs": "https://github.com/mick-whats/hify.doc/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mick-whats/hify.doc.git"
+  },
+  "license": "MIT",
+  "author": "mick-whats",
+  "dependencies": {
+    "cac": "^6.3.12",
+    "escape-goat": "^1.3.0",
+    "globby": "^8.0.1",
+    "lodash-core": "^4.17.11",
+    "tiny-glob": "^0.2.6"
+  }
+}
