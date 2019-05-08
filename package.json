@@ -1,17 +1,14 @@
 {
-  "name": "pg-mick",
+  "name": "{{name}}",
   "version": "0.0.1",
   "engines": {
     "node": ">=7.10.1"
   },
   "description": "",
-  "keywords": [
-    "template",
-    "hashids"
-  ],
+  "keywords": ["template", "hashids"],
   "scripts": {
-    "test": "jest",
-    "test:watch": "npm run jest -- --watch",
+    "test": "jest --runInBand --config jest.json",
+    "test:watch": "npm run test -- --watch",
     "cover": "npm test -- --coverage"
   },
   "dependencies": {
@@ -30,15 +27,13 @@
     "prettier": "^1.15.3"
   },
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://github.com/mick-whats/pg-mick",
-  "bugs": "https://github.com/mick-whats/pg-mick/issues",
+  "files": ["lib"],
+  "homepage": "https://github.com/{{owner}}/{{name}}",
+  "bugs": "https://github.com/{{owner}}/{{name}}/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mick-whats/pg-mick.git"
+    "url": "https://github.com/{{owner}}/{{name}}.git"
   },
   "license": "MIT",
-  "author": "mick-whats"
+  "author": "{{owner}}"
 }
