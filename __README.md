@@ -69,4 +69,4 @@ Default: `true`
 
 ## License
 
-MIT © [Mick Whats](https://github.com/mick-whats)
+MIT © [{{owner:title}}](https://github.com/mick-whats)
