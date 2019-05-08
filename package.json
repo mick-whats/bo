@@ -5,7 +5,10 @@
     "node": ">=7.10.1"
   },
   "description": "",
-  "keywords": ["template", "hashids"],
+  "keywords": [
+    "template",
+    "hashids"
+  ],
   "scripts": {
     "test": "jest --runInBand --config jest.json",
     "test:watch": "npm run test -- --watch",
@@ -27,7 +30,10 @@
     "prettier": "^1.15.3"
   },
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib",
+    "!**/__tests__/**"
+  ],
   "homepage": "https://github.com/{{owner}}/{{name}}",
   "bugs": "https://github.com/{{owner}}/{{name}}/issues",
   "repository": {
