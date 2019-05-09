@@ -10,7 +10,7 @@
     "hashids"
   ],
   "scripts": {
-    "test": "jest --runInBand --config jest.json",
+    "test": "jest --runInBand",
     "test:watch": "npm run test -- --watch",
     "cover": "npm test -- --coverage"
   },
